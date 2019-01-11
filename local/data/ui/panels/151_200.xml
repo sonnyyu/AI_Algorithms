@@ -1,0 +1,74 @@
+<panel>
+  <html>
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Number</th><th>Algorithms Name</th><th>Algorithms Example</th></tr></thead><tbody>
+ <tr><td>151</td><td>Generate cross-validated estimates for each input data point</td><td width="400">cross_validation.cross_val_predict(estimator, X)</td></tr>
+ <tr><td>152</td><td>Evaluate a score by cross-validation</td><td>cross_validation.cross_val_score(estimator, X)</td></tr>
+ <tr><td>153</td><td>Evaluate the significance of a cross-validated score with permutations</td><td>cross_validation.permutation_test_score(...)</td></tr>
+ <tr><td>154</td><td>Split arrays or matrices into random train and test subsets</td><td>cross_validation.train_test_split(*arrays, ...)</td></tr>
+ <tr><td>155</td><td>Run fit on one set of parameters.</td><td>grid_search.fit_grid_point(X, y, estimator, ...)</td></tr>
+ <tr><td>156</td><td>Learning curve.</td><td>learning_curve.learning_curve(estimator, X, y)</td></tr>
+ <tr><td>157</td><td>Validation curve.</td><td>learning_curve.validation_curve(estimator, ...)</td></tr>
+ <tr><td>158</td><td>Converts an array-like to an array of floats.</td><td>utils.as_float_array(X[, copy, force_all_finite])</td></tr>
+ <tr><td>159</td><td>Throw a ValueError if X contains NaN or infinity.</td><td>utils.assert_all_finite(X)</td></tr>
+ <tr><td>160</td><td>Input validation for standard estimators.</td><td>utils.check_X_y(X, y[, accept_sparse, ...])</td></tr>
+ <tr><td>161</td><td>Input validation on an array, list, sparse matrix or similar.</td><td>utils.check_array(array[, accept_sparse, ...])</td></tr>
+ <tr><td>162</td><td>Check that all arrays have consistent first dimensions.</td><td>utils.check_consistent_length(*arrays)</td></tr>
+ <tr><td>163</td><td>Turn seed into a np.random.RandomState instance</td><td>utils.check_random_state(seed)</td></tr>
+ <tr><td>164</td><td>Estimate class weights for unbalanced datasets.</td><td>utils.class_weight.compute_class_weight(...)</td></tr>
+ <tr><td>165</td><td>Estimate sample weights by class for unbalanced datasets.</td><td>utils.class_weight.compute_sample_weight(...)</td></tr>
+ <tr><td>166</td><td>Check if estimator adheres to scikit-learn conventions.</td><td>utils.estimator_checks.check_estimator(Estimator)</td></tr>
+ <tr><td>167</td><td>Dot product that handle the sparse matrix case correctly</td><td>utils.extmath.safe_sparse_dot(a, b[, ...])</td></tr>
+ <tr><td>168</td><td>Make arrays indexable for cross-validation.</td><td>utils.indexable(*iterables)</td></tr>
+ <tr><td>169</td><td>Resample arrays or sparse matrices in a consistent way</td><td>utils.resample(*arrays, **options)</td></tr>
+ <tr><td>170</td><td>Return items or rows from X using indices.</td><td>utils.safe_indexing(X, indices)</td></tr>
+ <tr><td>171</td><td>Shuffle arrays or sparse matrices in a consistent way</td><td>utils.shuffle(*arrays, **options)</td></tr>
+ <tr><td>172</td><td>Compute incremental mean and variance along an axix on a CSR or CSC matrix.</td><td>utils.sparsefuncs.incr_mean_variance_axis(X, ...)</td></tr>
+ <tr><td>173</td><td>Inplace column scaling of a CSC/CSR matrix.</td><td>utils.sparsefuncs.inplace_column_scale(X, scale)</td></tr>
+ <tr><td>174</td><td>Inplace row scaling of a CSR or CSC matrix.</td><td>utils.sparsefuncs.inplace_row_scale(X, scale)</td></tr>
+ <tr><td>175</td><td>Swaps two rows of a CSC/CSR matrix in-place.</td><td>utils.sparsefuncs.inplace_swap_row(X, m, n)</td></tr>
+ <tr><td>176</td><td>Swaps two columns of a CSC/CSR matrix in-place.</td><td>utils.sparsefuncs.inplace_swap_column(X, m, n)</td></tr>
+ <tr><td>177</td><td>Compute mean and variance along an axix on a CSR or CSC matrix</td><td>utils.sparsefuncs.mean_variance_axis(X, axis)</td></tr>
+ <tr><td>178</td><td>Perform is_fitted validation for estimator.</td><td>utils.validation.check_is_fitted(estimator, ...)</td></tr>
+ <tr><td>179</td><td>Check that memory is joblib.Memory-like.</td><td>utils.validation.check_memory(memory)</td></tr>
+ <tr><td>180</td><td>Make sure that array is 2D, square and symmetric.</td><td>utils.validation.check_symmetric(array[, ...])</td></tr>
+ <tr><td>181</td><td>Ravel column or 1d numpy array, else raises an error</td><td>utils.validation.column_or_1d(y[, warn])</td></tr>
+ <tr><td>182</td><td>Checks whether the estimator's fit method supports the given parameter.</td><td>utils.validation.has_fit_parameter(...)</td></tr>
+ <tr><td>183</td><td>Binarize data (set feature values to 0 or 1) according to a threshold</td><td>preprocessing.Binarizer([threshold, copy])</td></tr>
+ <tr><td>184</td><td>Constructs a transformer from an arbitrary callable.</td><td>preprocessing.FunctionTransformer([func, ...])</td></tr>
+ <tr><td>185</td><td>Imputation transformer for completing missing values.</td><td>preprocessing.Imputer([missing_values, ...])</td></tr>
+ <tr><td>186</td><td>Center a kernel matrix</td><td>preprocessing.KernelCenterer</td></tr>
+ <tr><td>187</td><td>Binarize labels in a one-vs-all fashion</td><td>preprocessing.LabelBinarizer([neg_label, ...])</td></tr>
+ <tr><td>188</td><td>Encode labels with value between 0 and n_classes-1.</td><td>preprocessing.LabelEncoder</td></tr>
+ <tr><td>189</td><td>Transform between iterable of iterables and a multilabel format</td><td>preprocessing.MultiLabelBinarizer([classes, ...])</td></tr>
+ <tr><td>190</td><td>Scale each feature by its maximum absolute value.</td><td>preprocessing.MaxAbsScaler([copy])</td></tr>
+ <tr><td>191</td><td>Transforms features by scaling each feature to a given range.</td><td>preprocessing.MinMaxScaler([feature_range, copy])</td></tr>
+ <tr><td>192</td><td>Normalize samples individually to unit norm.</td><td>preprocessing.Normalizer([norm, copy])</td></tr>
+ <tr><td>193</td><td>Encode categorical integer features using a one-hot aka one-of-K scheme.</td><td>preprocessing.OneHotEncoder([n_values, ...])</td></tr>
+ <tr><td>194</td><td>Generate polynomial and interaction features.</td><td>preprocessing.PolynomialFeatures([degree, ...])</td></tr>
+ <tr><td>195</td><td>Transform features using quantiles information.</td><td>preprocessing.QuantileTransformer([...])</td></tr>
+ <tr><td>196</td><td>Scale features using statistics that are robust to outliers.</td><td>preprocessing.RobustScaler([with_centering, ...])</td></tr>
+ <tr><td>197</td><td>Standardize features by removing the mean and scaling to unit variance</td><td>preprocessing.StandardScaler([copy, ...])</td></tr>
+ <tr><td>198</td><td>Augment dataset with an additional dummy feature.</td><td>preprocessing.add_dummy_feature(X[, value])</td></tr>
+ <tr><td>199</td><td>Boolean thresholding of array-like or scipy.sparse matrix</td><td>preprocessing.binarize(X[, threshold, copy])</td></tr>
+ <tr><td>200</td><td>Binarize labels in a one-vs-all fashion</td><td>preprocessing.label_binarize(y, classes[, ...])</td></tr>
+</tbody></table>
+</html>
+</panel>

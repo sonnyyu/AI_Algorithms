@@ -1,0 +1,127 @@
+[app/ui]
+version = 7.1.2
+modtime = 1547170114.448395000
+
+[app/launcher]
+version = 7.1.2
+modtime = 1547170114.451412000
+
+[views/python_for_scientific_computing_251263]
+owner = admin
+version = 7.1.2
+modtime = 1547170712.791530000
+
+[views/python_for_scientific_computing_150]
+owner = admin
+version = 7.1.2
+modtime = 1547170787.992532000
+
+[views/python_for_scientific_computing_51100]
+owner = admin
+version = 7.1.2
+modtime = 1547170815.910184000
+
+[views/python_for_scientific_computing_101150]
+owner = admin
+version = 7.1.2
+modtime = 1547170826.531763000
+
+[views/python_for_scientific_computing_151200]
+owner = admin
+version = 7.1.2
+modtime = 1547170840.181824000
+
+[views/python_for_scientific_computing_201250]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547170854.904624000
+
+[panels/101_150]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171554.297462000
+
+[panels/151_200]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171566.291516000
+
+[panels/1_50]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171575.434377000
+
+[panels/201_250]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171586.025205000
+
+[panels/251_263]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171598.115286000
+
+[panels/51_100]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171607.784783000
+
+[panels/python_menu_1]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547241779.082064000
+
+[panels/python_menu_2]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171631.869019000
+
+[panels/python_menu_3]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171643.305853000
+
+[panels/python_menu_4]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171651.786523000
+
+[panels/python_menu_5]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171662.634565000
+
+[panels/python_menu_6]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.1.2
+modtime = 1547171673.052894000
+
+[nav/default]
+version = 7.1.2
+modtime = 1547171881.370476000

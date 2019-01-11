@@ -1,0 +1,74 @@
+<panel>
+  <html>
+  <style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Number</th><th>Algorithms Name</th><th>Algorithms Example</th></tr></thead><tbody>
+ <tr><td>101</td><td>Linear classifiers (SVM, logistic regression, a.o.) with SGD training.</td><td>linear_model.SGDClassifier([loss, penalty, ...])</td></tr>
+ <tr><td>102</td><td>Linear model fitted by minimizing a regularized empirical loss with SGD</td><td>linear_model.SGDRegressor([loss, penalty, ...])</td></tr>
+ <tr><td>103</td><td>Theil-Sen Estimator: robust multivariate regression model.</td><td>linear_model.TheilSenRegressor([...])</td></tr>
+ <tr><td>104</td><td>Compute elastic net path with coordinate descent</td><td>linear_model.enet_path(X, y[, l1_ratio, ...])</td></tr>
+ <tr><td>105</td><td>Compute Least Angle Regression or Lasso path using LARS algorithm [1]</td><td>linear_model.lars_path(X, y[, Xy, Gram, ...])</td></tr>
+ <tr><td>106</td><td>Compute Lasso path with coordinate descent</td><td>linear_model.lasso_path(X, y[, eps, ...])</td></tr>
+ <tr><td>107</td><td>Compute a Logistic Regression model for a list of regularization parameters.</td><td>linear_model.logistic_regression_path(X, y)</td></tr>
+ <tr><td>108</td><td>Orthogonal Matching Pursuit (OMP)</td><td>linear_model.orthogonal_mp(X, y[, ...])</td></tr>
+ <tr><td>109</td><td>Gram Orthogonal Matching Pursuit (OMP)</td><td>linear_model.orthogonal_mp_gram(Gram, Xy[, ...])</td></tr>
+ <tr><td>110</td><td>BallTree for fast generalized N-point problems</td><td>neighbors.BallTree</td></tr>
+ <tr><td>111</td><td>DistanceMetric class</td><td>neighbors.DistanceMetric</td></tr>
+ <tr><td>112</td><td>KDTree for fast generalized N-point problems</td><td>neighbors.KDTree</td></tr>
+ <tr><td>113</td><td>Kernel Density Estimation</td><td>neighbors.KernelDensity([bandwidth, ...])</td></tr>
+ <tr><td>114</td><td>Classifier implementing the k-nearest neighbors vote.</td><td>neighbors.KNeighborsClassifier([...])</td></tr>
+ <tr><td>115</td><td>Regression based on k-nearest neighbors.</td><td>neighbors.KNeighborsRegressor([n_neighbors, ...])</td></tr>
+ <tr><td>116</td><td>Unsupervised Outlier Detection using Local Outlier Factor (LOF)</td><td>neighbors.LocalOutlierFactor([n_neighbors, ...])</td></tr>
+ <tr><td>117</td><td>Classifier implementing a vote among neighbors within a given radius</td><td>neighbors.RadiusNeighborsClassifier([...])</td></tr>
+ <tr><td>118</td><td>Regression based on neighbors within a fixed radius.</td><td>neighbors.RadiusNeighborsRegressor([radius, ...])</td></tr>
+ <tr><td>119</td><td>Nearest centroid classifier.</td><td>neighbors.NearestCentroid([metric, ...])</td></tr>
+ <tr><td>120</td><td>Unsupervised learner for implementing neighbor searches.</td><td>neighbors.NearestNeighbors([n_neighbors, ...])</td></tr>
+ <tr><td>121</td><td>Computes the (weighted) graph of k-Neighbors for points in X</td><td>neighbors.kneighbors_graph(X, n_neighbors[, ...])</td></tr>
+ <tr><td>122</td><td>Computes the (weighted) graph of Neighbors for points in X</td><td>neighbors.radius_neighbors_graph(X, radius)</td></tr>
+ <tr><td>123</td><td>Linear Support Vector Classification.</td><td>svm.LinearSVC([penalty, loss, dual, tol, C, ...])</td></tr>
+ <tr><td>124</td><td>Linear Support Vector Regression.</td><td>svm.LinearSVR([epsilon, tol, C, loss, ...])</td></tr>
+ <tr><td>125</td><td>Nu-Support Vector Classification.</td><td>svm.NuSVC([nu, kernel, degree, gamma, ...])</td></tr>
+ <tr><td>126</td><td>Nu Support Vector Regression.</td><td>svm.NuSVR([nu, C, kernel, degree, gamma, ...])</td></tr>
+ <tr><td>127</td><td>Unsupervised Outlier Detection.</td><td>svm.OneClassSVM([kernel, degree, gamma, ...])</td></tr>
+ <tr><td>128</td><td>C-Support Vector Classification.</td><td>svm.SVC([C, kernel, degree, gamma, coef0, ...])</td></tr>
+ <tr><td>129</td><td>Epsilon-Support Vector Regression.</td><td>svm.SVR([kernel, degree, gamma, coef0, tol, ...])</td></tr>
+ <tr><td>130</td><td>K-Folds cross validation iterator.</td><td>cross_validation.KFold(n[, n_folds, ...])</td></tr>
+ <tr><td>131</td><td>K-fold iterator variant with non-overlapping labels.</td><td>cross_validation.LabelKFold(labels[, n_folds])</td></tr>
+ <tr><td>132</td><td>Leave-One-Label_Out cross-validation iterator</td><td>cross_validation.LeaveOneLabelOut(labels)</td></tr>
+ <tr><td>133</td><td>Leave-One-Out cross validation iterator.</td><td>cross_validation.LeaveOneOut(n)</td></tr>
+ <tr><td>134</td><td>Leave-P-Out cross validation iterator</td><td>cross_validation.LeavePOut(n, p)</td></tr>
+ <tr><td>135</td><td>Leave-P-Label_Out cross-validation iterator</td><td>cross_validation.LeavePLabelOut(labels, p)</td></tr>
+ <tr><td>136</td><td>Shuffle-Labels-Out cross-validation iterator</td><td>cross_validation.LabelShuffleSplit(labels[, ...])</td></tr>
+ <tr><td>137</td><td>Random permutation cross-validation iterator.</td><td>cross_validation.ShuffleSplit(n[, n_iter, ...])</td></tr>
+ <tr><td>138</td><td>Stratified K-Folds cross validation iterator</td><td>cross_validation.StratifiedKFold(y[, ...])</td></tr>
+ <tr><td>139</td><td>Stratified ShuffleSplit cross validation iterator</td><td>cross_validation.StratifiedShuffleSplit(y[, ...])</td></tr>
+ <tr><td>140</td><td>Predefined split cross validation iterator</td><td>cross_validation.PredefinedSplit(test_fold)</td></tr>
+ <tr><td>141</td><td>Principal component analysis (PCA) using randomized SVD</td><td>decomposition.RandomizedPCA(*args, **kwargs)</td></tr>
+ <tr><td>142</td><td>The legacy Gaussian Process model class.</td><td>gaussian_process.GaussianProcess(*args, **kwargs)</td></tr>
+ <tr><td>143</td><td>Grid of parameters with a discrete number of values for each.</td><td>grid_search.ParameterGrid(param_grid)</td></tr>
+ <tr><td>144</td><td>Generator on parameters sampled from given distributions.</td><td>grid_search.ParameterSampler(...[, random_state])</td></tr>
+ <tr><td>145</td><td>Exhaustive search over specified parameter values for an estimator.</td><td>grid_search.GridSearchCV(estimator, param_grid)</td></tr>
+ <tr><td>146</td><td>Randomized search on hyper parameters.</td><td>grid_search.RandomizedSearchCV(estimator, ...)</td></tr>
+ <tr><td>147</td><td>Dirichlet Process Gaussian Mixture Models</td><td>mixture.DPGMM(*args, **kwargs)</td></tr>
+ <tr><td>148</td><td>Legacy Gaussian Mixture Model</td><td>mixture.GMM(*args, **kwargs)</td></tr>
+ <tr><td>149</td><td>Variational Inference for the Gaussian Mixture Model</td><td>mixture.VBGMM(*args, **kwargs)</td></tr>
+ <tr><td>150</td><td>Input checker utility for building a CV in a user friendly way.</td><td>cross_validation.check_cv(cv[, X, y, classifier])</td></tr>
+</tbody></table>
+</html>
+</panel>

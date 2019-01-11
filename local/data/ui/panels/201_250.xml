@@ -1,0 +1,74 @@
+<panel>
+<html>
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Number</th><th>Algorithms Name</th><th>Algorithms Example</th></tr></thead><tbody>
+ <tr><td>201</td><td>Scale each feature to the [-1, 1] range without breaking the sparsity.</td><td width="400">preprocessing.maxabs_scale(X[, axis, copy])</td></tr>
+ <tr><td>202</td><td>Transforms features by scaling each feature to a given range.</td><td>preprocessing.minmax_scale(X[, ...])</td></tr>
+ <tr><td>203</td><td>Scale input vectors individually to unit norm (vector length).</td><td>preprocessing.normalize(X[, norm, axis, ...])</td></tr>
+ <tr><td>204</td><td>Transform features using quantiles information.</td><td>preprocessing.quantile_transform(X[, axis, ...])</td></tr>
+ <tr><td>205</td><td>Standardize a dataset along any axis</td><td>preprocessing.robust_scale(X[, axis, ...])</td></tr>
+ <tr><td>206</td><td>Standardize a dataset along any axis</td><td>preprocessing.scale(X[, axis, with_mean, ...])</td></tr>
+ <tr><td>207</td><td>K-fold iterator variant with non-overlapping groups.</td><td>model_selection.GroupKFold([n_splits])</td></tr>
+ <tr><td>208</td><td>Shuffle-Group(s)-Out cross-validation iterator</td><td>model_selection.GroupShuffleSplit([...])</td></tr>
+ <tr><td>209</td><td>K-Folds cross-validator</td><td>model_selection.KFold([n_splits, shuffle, ...])</td></tr>
+ <tr><td>210</td><td>Leave One Group Out cross-validator</td><td>model_selection.LeaveOneGroupOut()</td></tr>
+ <tr><td>211</td><td>Leave P Group(s) Out cross-validator</td><td>model_selection.LeavePGroupsOut(n_groups)</td></tr>
+ <tr><td>212</td><td>Leave-One-Out cross-validator</td><td>model_selection.LeaveOneOut()</td></tr>
+ <tr><td>213</td><td>Leave-P-Out cross-validator</td><td>model_selection.LeavePOut(p)</td></tr>
+ <tr><td>214</td><td>Predefined split cross-validator</td><td>model_selection.PredefinedSplit(test_fold)</td></tr>
+ <tr><td>215</td><td>Repeated K-Fold cross validator.</td><td>model_selection.RepeatedKFold([n_splits, ...])</td></tr>
+ <tr><td>216</td><td>Repeated Stratified K-Fold cross validator.</td><td>model_selection.RepeatedStratifiedKFold([...])</td></tr>
+ <tr><td>217</td><td>Random permutation cross-validator</td><td>model_selection.ShuffleSplit([n_splits, ...])</td></tr>
+ <tr><td>218</td><td>Stratified K-Folds cross-validator</td><td>model_selection.StratifiedKFold([n_splits, ...])</td></tr>
+ <tr><td>219</td><td>Stratified ShuffleSplit cross-validator</td><td>model_selection.StratifiedShuffleSplit([...])</td></tr>
+ <tr><td>220</td><td>Time Series cross-validator</td><td>model_selection.TimeSeriesSplit([n_splits, ...])</td></tr>
+ <tr><td>221</td><td>Input checker utility for building a cross-validator</td><td>model_selection.check_cv([cv, y, classifier])</td></tr>
+ <tr><td>222</td><td>Split arrays or matrices into random train and test subsets</td><td>model_selection.train_test_split(*arrays, ...)</td></tr>
+ <tr><td>223</td><td>Exhaustive search over specified parameter values for an estimator.</td><td>model_selection.GridSearchCV(estimator, ...)</td></tr>
+ <tr><td>224</td><td>Grid of parameters with a discrete number of values for each.</td><td>model_selection.ParameterGrid(param_grid)</td></tr>
+ <tr><td>225</td><td>Generator on parameters sampled from given distributions.</td><td>model_selection.ParameterSampler(...[, ...])</td></tr>
+ <tr><td>226</td><td>Randomized search on hyper parameters.</td><td>model_selection.RandomizedSearchCV(...[, ...])</td></tr>
+ <tr><td>227</td><td>Run fit on one set of parameters.</td><td>model_selection.fit_grid_point(X, y, ...[, ...])</td></tr>
+ <tr><td>228</td><td>Evaluate metric(s) by cross-validation and also record fit/score times.</td><td>model_selection.cross_validate(estimator, X)</td></tr>
+ <tr><td>229</td><td>Generate cross-validated estimates for each input data point</td><td>model_selection.cross_val_predict(estimator, X)</td></tr>
+ <tr><td>230</td><td>Evaluate a score by cross-validation</td><td>model_selection.cross_val_score(estimator, X)</td></tr>
+ <tr><td>231</td><td>Learning curve.</td><td>model_selection.learning_curve(estimator, X, y)</td></tr>
+ <tr><td>232</td><td>Evaluate the significance of a cross-validated score with permutations</td><td>model_selection.permutation_test_score(...)</td></tr>
+ <tr><td>233</td><td>Validation curve.</td><td>model_selection.validation_curve(estimator, ...)</td></tr>
+ <tr><td>234</td><td>Accuracy classification score.</td><td>metrics.accuracy_score(y_true, y_pred[, ...])</td></tr>
+ <tr><td>235</td><td>Compute Area Under the Curve (AUC) using the trapezoidal rule</td><td>metrics.auc(x, y[, reorder])</td></tr>
+ <tr><td>236</td><td>Compute average precision (AP) from prediction scores</td><td>metrics.average_precision_score(y_true, y_score)</td></tr>
+ <tr><td>237</td><td>Compute the Brier score.</td><td>metrics.brier_score_loss(y_true, y_prob[, ...])</td></tr>
+ <tr><td>238</td><td>Build a text report showing the main classification metrics</td><td>metrics.classification_report(y_true, y_pred)</td></tr>
+ <tr><td>239</td><td>Cohen's kappa: a statistic that measures inter-annotator agreement.</td><td>metrics.cohen_kappa_score(y1, y2[, labels, ...])</td></tr>
+ <tr><td>240</td><td>Compute confusion matrix to evaluate the accuracy of a classification</td><td>metrics.confusion_matrix(y_true, y_pred[, ...])</td></tr>
+ <tr><td>241</td><td>Compute the F1 score, also known as balanced F-score or F-measure</td><td>metrics.f1_score(y_true, y_pred[, labels, ...])</td></tr>
+ <tr><td>242</td><td>Compute the F-beta score</td><td>metrics.fbeta_score(y_true, y_pred, beta[, ...])</td></tr>
+ <tr><td>243</td><td>Compute the average Hamming loss.</td><td>metrics.hamming_loss(y_true, y_pred[, ...])</td></tr>
+ <tr><td>244</td><td>Average hinge loss (non-regularized)</td><td>metrics.hinge_loss(y_true, pred_decision[, ...])</td></tr>
+ <tr><td>245</td><td>Jaccard similarity coefficient score</td><td>metrics.jaccard_similarity_score(y_true, y_pred)</td></tr>
+ <tr><td>246</td><td>Log loss, aka logistic loss or cross-entropy loss.</td><td>metrics.log_loss(y_true, y_pred[, eps, ...])</td></tr>
+ <tr><td>247</td><td>Compute the Matthews correlation coefficient (MCC)</td><td>metrics.matthews_corrcoef(y_true, y_pred[, ...])</td></tr>
+ <tr><td>248</td><td>Compute precision-recall pairs for different probability thresholds</td><td>metrics.precision_recall_curve(y_true, ...)</td></tr>
+ <tr><td>249</td><td>Compute precision, recall, F-measure and support for each class</td><td>metrics.precision_recall_fscore_support(...)</td></tr>
+ <tr><td>250</td><td>Compute the precision</td><td>metrics.precision_score(y_true, y_pred[, ...])</td></tr>
+</tbody></table>
+</html>
+</panel>

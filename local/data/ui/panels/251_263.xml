@@ -1,0 +1,37 @@
+<panel>
+<html>
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Number</th><th>Algorithms Name</th><th>Algorithms Example</th></tr></thead><tbody>
+ <tr><td>251</td><td>Compute the recall</td><td width="400">metrics.recall_score(y_true, y_pred[, ...])</td></tr>
+ <tr><td>252</td><td>Compute Area Under the Receiver Operating Characteristic Curve</td><td>metrics.roc_auc_score(y_true, y_score[, ...])</td></tr>
+ <tr><td>253</td><td>Compute Receiver operating characteristic (ROC)</td><td>metrics.roc_curve(y_true, y_score[, ...])</td></tr>
+ <tr><td>254</td><td>Zero-one classification loss.</td><td>metrics.zero_one_loss(y_true, y_pred[, ...])</td></tr>
+ <tr><td>255</td><td>Explained variance regression score function</td><td>metrics.explained_variance_score(y_true, y_pred)</td></tr>
+ <tr><td>256</td><td>Mean absolute error regression loss</td><td>metrics.mean_absolute_error(y_true, y_pred)</td></tr>
+ <tr><td>257</td><td>Mean squared error regression loss</td><td>metrics.mean_squared_error(y_true, y_pred[, ...])</td></tr>
+ <tr><td>258</td><td>Mean squared logarithmic error regression loss</td><td>metrics.mean_squared_log_error(y_true, y_pred)</td></tr>
+ <tr><td>259</td><td>Median absolute error regression loss</td><td>metrics.median_absolute_error(y_true, y_pred)</td></tr>
+ <tr><td>260</td><td>R^2 (coefficient of determination) regression score function.</td><td>metrics.r2_score(y_true, y_pred[, ...])</td></tr>
+ <tr><td>261</td><td>Coverage error measure</td><td>metrics.coverage_error(y_true, y_score[, ...])</td></tr>
+ <tr><td>262</td><td>Compute ranking-based average precision</td><td>metrics.label_ranking_average_precision_score(...)</td></tr>
+ <tr><td>263</td><td>Compute Ranking loss measure</td><td>metrics.label_ranking_loss(y_true, y_score)</td></tr>
+</tbody></table>
+</html>
+</panel>

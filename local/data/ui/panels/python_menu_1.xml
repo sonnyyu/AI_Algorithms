@@ -1,0 +1,46 @@
+<panel>
+ <html>
+<head>
+<style>
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head>
+<body>
+<div class="left">
+  <div class="pagination">
+  <!--<a href="/app/search/python_for_scientific_computing_150">&#171;</a>-->
+  <a href="#" class="active">1</a>
+  <a href="/app/AI_Algorithms/python_for_scientific_computing_51100">2</a>
+  <a href="/app/AI_Algorithms/python_for_scientific_computing_101150">3</a>
+  <a href="/app/AI_Algorithms/python_for_scientific_computing_151200">4</a>
+  <a href="/app/AI_Algorithms/python_for_scientific_computing_201250">5</a>
+  <a href="/app/AI_Algorithms/python_for_scientific_computing_251263">6</a>
+  <a href="/app/AI_Algorithms/python_for_scientific_computing_251263">&#187;</a>
+  </div>
+</div>
+</body>
+</html>
+</panel>

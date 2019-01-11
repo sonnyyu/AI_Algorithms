@@ -1,0 +1,9 @@
+<dashboard>
+  <label>AI Algorithms 201-250</label>
+  <row>
+    <panel ref="python_menu_5" app="search"></panel>
+  </row>
+  <row>
+    <panel ref="201_250" app="search"></panel>
+  </row>
+</dashboard>

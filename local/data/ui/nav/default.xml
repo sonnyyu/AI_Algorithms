@@ -1,0 +1,7 @@
+<nav search_view="search">
+  <view name="python_for_scientific_computing_150" default='true' />
+  <view name="datasets" />
+  <view name="reports" />
+  <view name="alerts" />
+  <view name="dashboards" />
+</nav>

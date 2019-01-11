@@ -1,0 +1,74 @@
+<panel>
+<html>
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Number</th><th>Algorithms Name</th><th>Algorithms Example</th></tr></thead><tbody>
+ <tr><td>51</td><td>Gaussian process regression (GPR).</td><td width="400">gaussian_process.GaussianProcessRegressor([...])</td></tr>
+ <tr><td>52</td><td>Kernel which is composed of a set of other kernels.</td><td>gaussian_process.kernels.CompoundKernel(kernels)</td></tr>
+ <tr><td>53</td><td>Constant kernel.</td><td>gaussian_process.kernels.ConstantKernel([...])</td></tr>
+ <tr><td>54</td><td>Dot-Product kernel.</td><td>gaussian_process.kernels.DotProduct([...])</td></tr>
+ <tr><td>55</td><td>Exp-Sine-Squared kernel.</td><td>gaussian_process.kernels.ExpSineSquared([...])</td></tr>
+ <tr><td>56</td><td>Exponentiate kernel by given exponent.</td><td>gaussian_process.kernels.Exponentiation(...)</td></tr>
+ <tr><td>57</td><td>A kernel hyperparameter's specification in form of a namedtuple.</td><td>gaussian_process.kernels.Hyperparameter</td></tr>
+ <tr><td>58</td><td>Base class for all kernels.</td><td>gaussian_process.kernels.Kernel</td></tr>
+ <tr><td>59</td><td>Matern kernel.</td><td>gaussian_process.kernels.Matern([...])</td></tr>
+ <tr><td>60</td><td>Wrapper for kernels in sklearn.metrics.pairwise.</td><td>gaussian_process.kernels.PairwiseKernel([...])</td></tr>
+ <tr><td>61</td><td>Product-kernel k1 * k2 of two kernels k1 and k2.</td><td>gaussian_process.kernels.Product(k1, k2)</td></tr>
+ <tr><td>62</td><td>Radial-basis function kernel (aka squared-exponential kernel).</td><td>gaussian_process.kernels.RBF([length_scale, ...])</td></tr>
+ <tr><td>63</td><td>Rational Quadratic kernel.</td><td>gaussian_process.kernels.RationalQuadratic([...])</td></tr>
+ <tr><td>64</td><td>Sum-kernel k1 + k2 of two kernels k1 and k2.</td><td>gaussian_process.kernels.Sum(k1, k2)</td></tr>
+ <tr><td>65</td><td>White kernel.</td><td>gaussian_process.kernels.WhiteKernel([...])</td></tr>
+ <tr><td>66</td><td>Isotonic regression model.</td><td>isotonic.IsotonicRegression([y_min, y_max, ...])</td></tr>
+ <tr><td>67</td><td>Determine whether y is monotonically correlated with x.</td><td>isotonic.check_increasing(x, y)</td></tr>
+ <tr><td>68</td><td>Solve the isotonic regression model:</td><td>isotonic.isotonic_regression(y[, ...])</td></tr>
+ <tr><td>69</td><td>Approximate feature map for additive chi2 kernel.</td><td>kernel_approximation.AdditiveChi2Sampler([...])</td></tr>
+ <tr><td>70</td><td>Approximate a kernel map using a subset of the training data.</td><td>kernel_approximation.Nystroem([kernel, ...])</td></tr>
+ <tr><td>71</td><td>Approximates feature map of an RBF kernel by Monte Carlo approximation of its Fourier transform.</td><td>kernel_approximation.RBFSampler([gamma, ...])</td></tr>
+ <tr><td>72</td><td>Bayesian ARD regression.</td><td>linear_model.ARDRegression([n_iter, tol, ...])</td></tr>
+ <tr><td>73</td><td>Bayesian ridge regression</td><td>linear_model.BayesianRidge([n_iter, tol, ...])</td></tr>
+ <tr><td>74</td><td>Linear regression with combined L1 and L2 priors as regularizer.</td><td>linear_model.ElasticNet([alpha, l1_ratio, ...])</td></tr>
+ <tr><td>75</td><td>Elastic Net model with iterative fitting along a regularization path</td><td>linear_model.ElasticNetCV([l1_ratio, eps, ...])</td></tr>
+ <tr><td>76</td><td>Linear regression model that is robust to outliers.</td><td>linear_model.HuberRegressor([epsilon, ...])</td></tr>
+ <tr><td>77</td><td>Least Angle Regression model a.k.a.</td><td>linear_model.Lars([fit_intercept, verbose, ...])</td></tr>
+ <tr><td>78</td><td>Cross-validated Least Angle Regression model</td><td>linear_model.LarsCV([fit_intercept, ...])</td></tr>
+ <tr><td>79</td><td>Linear Model trained with L1 prior as regularizer (aka the Lasso)</td><td>linear_model.Lasso([alpha, fit_intercept, ...])</td></tr>
+ <tr><td>80</td><td>Lasso linear model with iterative fitting along a regularization path</td><td>linear_model.LassoCV([eps, n_alphas, ...])</td></tr>
+ <tr><td>81</td><td>Lasso model fit with Least Angle Regression a.k.a.</td><td>linear_model.LassoLars([alpha, ...])</td></tr>
+ <tr><td>82</td><td>Cross-validated Lasso, using the LARS algorithm</td><td>linear_model.LassoLarsCV([fit_intercept, ...])</td></tr>
+ <tr><td>83</td><td>Lasso model fit with Lars using BIC or AIC for model selection</td><td>linear_model.LassoLarsIC([criterion, ...])</td></tr>
+ <tr><td>84</td><td>Ordinary least squares Linear Regression.</td><td>linear_model.LinearRegression([...])</td></tr>
+ <tr><td>85</td><td>Logistic Regression (aka logit, MaxEnt) classifier.</td><td>linear_model.LogisticRegression([penalty, ...])</td></tr>
+ <tr><td>86</td><td>Logistic Regression CV (aka logit, MaxEnt) classifier.</td><td>linear_model.LogisticRegressionCV([Cs, ...])</td></tr>
+ <tr><td>87</td><td>Multi-task Lasso model trained with L1/L2 mixed-norm as regularizer</td><td>linear_model.MultiTaskLasso([alpha, ...])</td></tr>
+ <tr><td>88</td><td>Multi-task ElasticNet model trained with L1/L2 mixed-norm as regularizer</td><td>linear_model.MultiTaskElasticNet([alpha, ...])</td></tr>
+ <tr><td>89</td><td>Multi-task L1/L2 Lasso with built-in cross-validation.</td><td>linear_model.MultiTaskLassoCV([eps, ...])</td></tr>
+ <tr><td>90</td><td>Multi-task L1/L2 ElasticNet with built-in cross-validation.</td><td>linear_model.MultiTaskElasticNetCV([...])</td></tr>
+ <tr><td>91</td><td>Orthogonal Matching Pursuit model (OMP)</td><td>linear_model.OrthogonalMatchingPursuit([...])</td></tr>
+ <tr><td>92</td><td>Cross-validated Orthogonal Matching Pursuit model (OMP)</td><td>linear_model.OrthogonalMatchingPursuitCV([...])</td></tr>
+ <tr><td>93</td><td>Passive Aggressive Classifier</td><td>linear_model.PassiveAggressiveClassifier([...])</td></tr>
+ <tr><td>94</td><td>Passive Aggressive Regressor</td><td>linear_model.PassiveAggressiveRegressor([C, ...])</td></tr>
+ <tr><td>95</td><td>Read more in the User Guide.</td><td>linear_model.Perceptron([penalty, alpha, ...])</td></tr>
+ <tr><td>96</td><td>RANSAC (RANdom SAmple Consensus) algorithm.</td><td>linear_model.RANSACRegressor([...])</td></tr>
+ <tr><td>97</td><td>Linear least squares with l2 regularization.</td><td>linear_model.Ridge([alpha, fit_intercept, ...])</td></tr>
+ <tr><td>98</td><td>Classifier using Ridge regression.</td><td>linear_model.RidgeClassifier([alpha, ...])</td></tr>
+ <tr><td>99</td><td>Ridge classifier with built-in cross-validation.</td><td>linear_model.RidgeClassifierCV([alphas, ...])</td></tr>
+ <tr><td>100</td><td>Ridge regression with built-in cross-validation.</td><td>linear_model.RidgeCV([alphas, ...])</td></tr>
+</tbody></table>
+</html>
+</panel>

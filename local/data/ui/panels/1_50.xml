@@ -1,0 +1,74 @@
+<panel>
+<html>
+  <style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Number</th><th>Algorithms Name</th><th>Algorithms Example</th></tr></thead><tbody>
+ <tr><td>1</td><td>Dictionary learning</td><td width="400">decomposition.DictionaryLearning([...])</td></tr>
+ <tr><td>2</td><td>Factor Analysis (FA)</td><td>decomposition.FactorAnalysis([n_components, ...])</td></tr>
+ <tr><td>3</td><td>FastICA: a fast algorithm for Independent Component Analysis.</td><td>decomposition.FastICA([n_components, ...])</td></tr>
+ <tr><td>4</td><td>Incremental principal components analysis (IPCA).</td><td>decomposition.IncrementalPCA([n_components, ...])</td></tr>
+ <tr><td>5</td><td>Kernel Principal component analysis (KPCA)</td><td>decomposition.KernelPCA([n_components, ...])</td></tr>
+ <tr><td>6</td><td>Latent Dirichlet Allocation with online variational Bayes algorithm</td><td>decomposition.LatentDirichletAllocation([...])</td></tr>
+ <tr><td>7</td><td>Mini-batch dictionary learning</td><td>decomposition.MiniBatchDictionaryLearning([...])</td></tr>
+ <tr><td>8</td><td>Mini-batch Sparse Principal Components Analysis</td><td>decomposition.MiniBatchSparsePCA([...])</td></tr>
+ <tr><td>9</td><td>Non-Negative Matrix Factorization (NMF)</td><td>decomposition.NMF([n_components, init, ...])</td></tr>
+ <tr><td>10</td><td>Principal component analysis (PCA)</td><td>decomposition.PCA([n_components, copy, ...])</td></tr>
+ <tr><td>11</td><td>Sparse Principal Components Analysis (SparsePCA)</td><td>decomposition.SparsePCA([n_components, ...])</td></tr>
+ <tr><td>12</td><td>Sparse coding</td><td>decomposition.SparseCoder(dictionary[, ...])</td></tr>
+ <tr><td>13</td><td>Dimensionality reduction using truncated SVD (aka LSA).</td><td>decomposition.TruncatedSVD([n_components, ...])</td></tr>
+ <tr><td>14</td><td>Solves a dictionary learning matrix factorization problem.</td><td>decomposition.dict_learning(X, n_components, ...)</td></tr>
+ <tr><td>15</td><td>Solves a dictionary learning matrix factorization problem online.</td><td>decomposition.dict_learning_online(X[, ...])</td></tr>
+ <tr><td>16</td><td>Perform Fast Independent Component Analysis.</td><td>decomposition.fastica(X[, n_components, ...])</td></tr>
+ <tr><td>17</td><td>Sparse coding</td><td>decomposition.sparse_encode(X, dictionary[, ...])</td></tr>
+ <tr><td>18</td><td>Maximum likelihood covariance estimator</td><td>covariance.EmpiricalCovariance([...])</td></tr>
+ <tr><td>19</td><td>An object for detecting outliers in a Gaussian distributed dataset.</td><td>covariance.EllipticEnvelope([...])</td></tr>
+ <tr><td>20</td><td>Sparse inverse covariance estimation with an l1-penalized estimator.</td><td>covariance.GraphLasso([alpha, mode, tol, ...])</td></tr>
+ <tr><td>21</td><td>Sparse inverse covariance w/ cross-validated choice of the l1 penalty</td><td>covariance.GraphLassoCV([alphas, ...])</td></tr>
+ <tr><td>22</td><td>LedoitWolf Estimator</td><td>covariance.LedoitWolf([store_precision, ...])</td></tr>
+ <tr><td>23</td><td>Minimum Covariance Determinant (MCD): robust estimator of covariance.</td><td>covariance.MinCovDet([store_precision, ...])</td></tr>
+ <tr><td>24</td><td>Oracle Approximating Shrinkage Estimator</td><td>covariance.OAS([store_precision, ...])</td></tr>
+ <tr><td>25</td><td>Covariance estimator with shrinkage</td><td>covariance.ShrunkCovariance([...])</td></tr>
+ <tr><td>26</td><td>Computes the Maximum likelihood covariance estimator</td><td>covariance.empirical_covariance(X[, ...])</td></tr>
+ <tr><td>27</td><td>l1-penalized covariance estimator</td><td>covariance.graph_lasso(emp_cov, alpha[, ...])</td></tr>
+ <tr><td>28</td><td>Estimates the shrunk Ledoit-Wolf covariance matrix.</td><td>covariance.ledoit_wolf(X[, assume_centered, ...])</td></tr>
+ <tr><td>29</td><td>Estimate covariance with the Oracle Approximating Shrinkage algorithm.</td><td>covariance.oas(X[, assume_centered])</td></tr>
+ <tr><td>30</td><td>Calculates a covariance matrix shrunk on the diagonal</td><td>covariance.shrunk_covariance(emp_cov[, ...])</td></tr>
+ <tr><td>31</td><td>CCA Canonical Correlation Analysis.</td><td>cross_decomposition.CCA([n_components, ...])</td></tr>
+ <tr><td>32</td><td>PLSCanonical implements the 2 blocks canonical PLS of the original Wold algorithm</td><td>cross_decomposition.PLSCanonical([...])</td></tr>
+ <tr><td>33</td><td>PLS regression</td><td>cross_decomposition.PLSRegression([...])</td></tr>
+ <tr><td>34</td><td>Partial Least Square SVD</td><td>cross_decomposition.PLSSVD([n_components, ...])</td></tr>
+ <tr><td>35</td><td>Univariate feature selector with configurable strategy.</td><td>feature_selection.GenericUnivariateSelect([...])</td></tr>
+ <tr><td>36</td><td>Select features according to a percentile of the highest scores.</td><td>feature_selection.SelectPercentile([...])</td></tr>
+ <tr><td>37</td><td>Select features according to the k highest scores.</td><td>feature_selection.SelectKBest([score_func, k])</td></tr>
+ <tr><td>38</td><td>Filter: Select the pvalues below alpha based on a FPR test.</td><td>feature_selection.SelectFpr([score_func, alpha])</td></tr>
+ <tr><td>39</td><td>Filter: Select the p-values for an estimated false discovery rate</td><td>feature_selection.SelectFdr([score_func, alpha])</td></tr>
+ <tr><td>40</td><td>Meta-transformer for selecting features based on importance weights.</td><td>feature_selection.SelectFromModel(estimator)</td></tr>
+ <tr><td>41</td><td>Filter: Select the p-values corresponding to Family-wise error rate</td><td>feature_selection.SelectFwe([score_func, alpha])</td></tr>
+ <tr><td>42</td><td>Feature ranking with recursive feature elimination.</td><td>feature_selection.RFE(estimator[, ...])</td></tr>
+ <tr><td>43</td><td>Feature ranking with cross-validated selection.</td><td>feature_selection.RFECV(estimator[, step, ...])</td></tr>
+ <tr><td>44</td><td>Feature selector that removes all low-variance features.</td><td>feature_selection.VarianceThreshold([threshold])</td></tr>
+ <tr><td>45</td><td>Compute chi-squared stats between each non-negative feature and class.</td><td>feature_selection.chi2(X, y)</td></tr>
+ <tr><td>46</td><td>Compute the ANOVA F-value for the provided sample.</td><td>feature_selection.f_classif(X, y)</td></tr>
+ <tr><td>47</td><td>Univariate linear regression tests.</td><td>feature_selection.f_regression(X, y[, center])</td></tr>
+ <tr><td>48</td><td>Estimate mutual information for a discrete target variable.</td><td>feature_selection.mutual_info_classif(X, y)</td></tr>
+ <tr><td>49</td><td>Estimate mutual information for a continuous target variable.</td><td>feature_selection.mutual_info_regression(X, y)</td></tr>
+ <tr><td>50</td><td>Gaussian process classification (GPC) based on Laplace approximation.</td><td>gaussian_process.GaussianProcessClassifier([...])</td></tr>
+</tbody></table>
+</html>
+</panel>
